@@ -17,5 +17,5 @@ CHIP And {
     // Put your code here:
     // Not Nand
     Nand(a = a, b = b, out = c);
-    Not(in = c, out = out);
+    Nand(a = c, b = c, out = out);
 }
