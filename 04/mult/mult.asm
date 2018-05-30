@@ -7,3 +7,27 @@
 // (R0, R1, R2 refer to RAM[0], RAM[1], and RAM[2], respectively.)
 
 // Put your code here.
+@R2 // save product here
+M=0
+@i
+M=0
+
+(LOOP)
+@i
+D=M // start with i
+@R1 // limit is the second number
+D=D-M
+@END
+D;JGE // return
+@R0
+D=M
+@R2
+M=M+D
+@i
+M=M+1
+@LOOP
+0;JMP
+
+(END)
+@END
+0;JMP
