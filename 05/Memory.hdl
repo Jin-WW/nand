@@ -27,5 +27,16 @@ CHIP Memory {
     OUT out[16];
 
     PARTS:
-    // Put your code here:
+    DMux4Way(in = load, sel = address[13..14], a = a, b = b, c = isScreen, d = d);
+    Or(a = a, b = b, out = isMemory);
+    RAM16K(in = in, load = isMemory, address = address[0..13], out = memoryOut);
+    Screen(in = in, load = isScreen, address = address[0..12], out = screenOut);
+    Keyboard(out = keyboardOut);
+    //only accept keys that is exactly ox6000
+    Or8Way(in = address[0..7], out = hasLeft);
+    Or8Way(in[0..4] = address[8..12], out = hasRight);
+    Or(a = hasLeft, b = hasRight, out = hasDigit);
+    Mux16(a = keyboardOut, b = false, sel = hasDigit, out = keyboardShow);
+
+    Mux4Way16(a = memoryOut, b = memoryOut, c = screenOut, d = keyboardShow, sel = address[13..14], out = out);
 }
