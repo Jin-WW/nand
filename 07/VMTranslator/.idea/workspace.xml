@@ -199,7 +199,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MemoryAccess/StaticTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../StackArithmetic/StackTest" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -229,8 +229,8 @@
     <configuration name="VMTranslator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.inwebland.nand2tetris.VMTranslator" />
       <module name="VMTranslator" />
-      <option name="PROGRAM_PARAMETERS" value="StaticTest.vm" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../MemoryAccess/StaticTest" />
+      <option name="PROGRAM_PARAMETERS" value="StackTest.vm" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../StackArithmetic/StackTest" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.*" />
@@ -266,7 +266,7 @@
       <workItem from="1528170585411" duration="17000" />
       <workItem from="1528171787948" duration="148000" />
       <workItem from="1528247507175" duration="21000" />
-      <workItem from="1528334474333" duration="4611000" />
+      <workItem from="1528334474333" duration="4911000" />
     </task>
     <task id="LOCAL-00001" summary="finished commandType">
       <created>1527998166170</created>
@@ -300,7 +300,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35073000" />
+    <option name="totallyTimeSpent" value="35373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />

@@ -3,18 +3,16 @@
 @17
 D=A
 @0
-A=M
+M=M+1;
+A=M-1
 M=D
-@0
-M=M+1
 // C_PUSH constant 17
 @17
 D=A
 @0
-A=M
+M=M+1;
+A=M-1
 M=D
-@0
-M=M+1
 // arithmetic: eq
 @0
 M=M-1
@@ -40,18 +38,16 @@ M=D
 @17
 D=A
 @0
-A=M
+M=M+1;
+A=M-1
 M=D
-@0
-M=M+1
 // C_PUSH constant 16
 @16
 D=A
 @0
-A=M
+M=M+1;
+A=M-1
 M=D
-@0
-M=M+1
 // arithmetic: eq
 @0
 M=M-1
@@ -77,18 +73,16 @@ M=D
 @16
 D=A
 @0
-A=M
+M=M+1;
+A=M-1
 M=D
-@0
-M=M+1
 // C_PUSH constant 17
 @17
 D=A
 @0
-A=M
+M=M+1;
+A=M-1
 M=D
-@0
-M=M+1
 // arithmetic: eq
 @0
 M=M-1
@@ -114,18 +108,16 @@ M=D
 @892
 D=A
 @0
-A=M
+M=M+1;
+A=M-1
 M=D
-@0
-M=M+1
 // C_PUSH constant 891
 @891
 D=A
 @0
-A=M
+M=M+1;
+A=M-1
 M=D
-@0
-M=M+1
 // arithmetic: lt
 @0
 M=M-1
@@ -151,18 +143,16 @@ M=D
 @891
 D=A
 @0
-A=M
+M=M+1;
+A=M-1
 M=D
-@0
-M=M+1
 // C_PUSH constant 892
 @892
 D=A
 @0
-A=M
+M=M+1;
+A=M-1
 M=D
-@0
-M=M+1
 // arithmetic: lt
 @0
 M=M-1
@@ -188,18 +178,16 @@ M=D
 @891
 D=A
 @0
-A=M
+M=M+1;
+A=M-1
 M=D
-@0
-M=M+1
 // C_PUSH constant 891
 @891
 D=A
 @0
-A=M
+M=M+1;
+A=M-1
 M=D
-@0
-M=M+1
 // arithmetic: lt
 @0
 M=M-1
@@ -225,18 +213,16 @@ M=D
 @32767
 D=A
 @0
-A=M
+M=M+1;
+A=M-1
 M=D
-@0
-M=M+1
 // C_PUSH constant 32766
 @32766
 D=A
 @0
-A=M
+M=M+1;
+A=M-1
 M=D
-@0
-M=M+1
 // arithmetic: gt
 @0
 M=M-1
@@ -262,18 +248,16 @@ M=D
 @32766
 D=A
 @0
-A=M
+M=M+1;
+A=M-1
 M=D
-@0
-M=M+1
 // C_PUSH constant 32767
 @32767
 D=A
 @0
-A=M
+M=M+1;
+A=M-1
 M=D
-@0
-M=M+1
 // arithmetic: gt
 @0
 M=M-1
@@ -299,18 +283,16 @@ M=D
 @32766
 D=A
 @0
-A=M
+M=M+1;
+A=M-1
 M=D
-@0
-M=M+1
 // C_PUSH constant 32766
 @32766
 D=A
 @0
-A=M
+M=M+1;
+A=M-1
 M=D
-@0
-M=M+1
 // arithmetic: gt
 @0
 M=M-1
@@ -336,26 +318,23 @@ M=D
 @57
 D=A
 @0
-A=M
+M=M+1;
+A=M-1
 M=D
-@0
-M=M+1
 // C_PUSH constant 31
 @31
 D=A
 @0
-A=M
+M=M+1;
+A=M-1
 M=D
-@0
-M=M+1
 // C_PUSH constant 53
 @53
 D=A
 @0
-A=M
+M=M+1;
+A=M-1
 M=D
-@0
-M=M+1
 // arithmetic: add
 @0
 M=M-1
@@ -368,10 +347,9 @@ M=M+D
 @112
 D=A
 @0
-A=M
+M=M+1;
+A=M-1
 M=D
-@0
-M=M+1
 // arithmetic: sub
 @0
 M=M-1
@@ -402,10 +380,9 @@ M=D&M
 @82
 D=A
 @0
-A=M
+M=M+1;
+A=M-1
 M=D
-@0
-M=M+1
 // arithmetic: or
 @0
 M=M-1
