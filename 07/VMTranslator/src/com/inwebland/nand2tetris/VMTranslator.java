@@ -13,6 +13,7 @@ public class VMTranslator {
         String outputFileName = relativeFileName.replace(".vm", ".asm");
         parser = new Parser(file);
         codeWriter = new CodeWriter(new File(outputFileName));
+        codeWriter.setFileName(relativeFileName.replace(".vm", ""));
         while (parser.hasMoreCommands()){
             CommandType commandType = parser.commandType();
             switch (commandType){
